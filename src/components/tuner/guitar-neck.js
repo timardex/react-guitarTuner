@@ -14,7 +14,7 @@ const GuitarNeck = props => {
                     </div>
                     
                     <div className="guitar-keys">
-                        {[...Array(6)].map((e, i) => <img src='https://csabatimar.com/assets/guitar-tuner/images/guitar-key.png' alt="Guitar Key" key={i} className={props.animated_key + ' key-' + i}/>)}
+                        {[...Array(6)].map((e, i) => <img src={require('../../assets/images/guitar-key.png')} alt="Guitar Key" key={i} className={props.animated_key + ' key-' + i}/>)}
                     </div>
                     
                     <Strings />

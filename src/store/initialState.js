@@ -20,7 +20,7 @@ const initialState = {
     standards: [{
             id: 1,
             name: 'EE',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/standard/ee.mp3'),
+            sound: new Audio(require('../assets/sounds/standard/ee.mp3')),
             isPlaying: false,
             string: 'string-6',
             string_animated: '',
@@ -29,7 +29,7 @@ const initialState = {
         {
             id: 2,
             name: 'B',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/standard/h.mp3'),
+            sound: new Audio(require('../assets/sounds/standard/h.mp3')),
             isPlaying: false,
             string: 'string-5',
             string_animated: '',
@@ -38,7 +38,7 @@ const initialState = {
         {
             id: 3,
             name: 'G',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/standard/g.mp3'),
+            sound: new Audio(require('../assets/sounds/standard/g.mp3')),
             isPlaying: false,
             string: 'string-4',
             string_animated: '',
@@ -47,7 +47,7 @@ const initialState = {
         {
             id: 4,
             name: 'D',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/standard/d.mp3'),
+            sound: new Audio(require('../assets/sounds/standard/d.mp3')),
             isPlaying: false,
             string: 'string-3',
             string_animated: '',
@@ -56,7 +56,7 @@ const initialState = {
         {
             id: 5,
             name: 'A',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/standard/a.mp3'),
+            sound: new Audio(require('../assets/sounds/standard/a.mp3')),
             isPlaying: false,
             string: 'string-2',
             string_animated: '',
@@ -65,7 +65,7 @@ const initialState = {
         {
             id: 6,
             name: 'E',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/standard/e.mp3'),
+            sound: new Audio(require('../assets/sounds/standard/e.mp3')),
             isPlaying: false,
             string: 'string-1',
             string_animated: '',
@@ -75,7 +75,7 @@ const initialState = {
     down_halfs: [{
             id: 7,
             name: 'EEb',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownhalf/eeb.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownhalf/eeb.mp3')),
             isPlaying: false,
             string: 'string-6',
             string_animated: '',
@@ -84,7 +84,7 @@ const initialState = {
         {
             id: 8,
             name: 'Bb',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownhalf/hb.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownhalf/hb.mp3')),
             isPlaying: false,
             string: 'string-5',
             string_animated: '',
@@ -93,7 +93,7 @@ const initialState = {
         {
             id: 9,
             name: 'Gb',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownhalf/gb.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownhalf/gb.mp3')),
             isPlaying: false,
             string: 'string-4',
             string_animated: '',
@@ -102,7 +102,7 @@ const initialState = {
         {
             id: 10,
             name: 'Db',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownhalf/db.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownhalf/db.mp3')),
             isPlaying: false,
             string: 'string-3',
             string_animated: '',
@@ -111,7 +111,7 @@ const initialState = {
         {
             id: 11,
             name: 'Ab',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownhalf/ab.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownhalf/ab.mp3')),
             isPlaying: false,
             string: 'string-2',
             string_animated: '',
@@ -120,7 +120,7 @@ const initialState = {
         {
             id: 12,
             name: 'Eb',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownhalf/eb.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownhalf/eb.mp3')),
             isPlaying: false,
             string: 'string-1',
             string_animated: '',
@@ -130,7 +130,7 @@ const initialState = {
     down_ones: [{
             id: 13,
             name: 'DD',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownone/dd.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownone/dd.mp3')),
             isPlaying: false,
             string: 'string-6',
             string_animated: '',
@@ -139,7 +139,7 @@ const initialState = {
         {
             id: 14,
             name: 'A',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownone/a.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownone/a.mp3')),
             isPlaying: false,
             string: 'string-5',
             string_animated: '',
@@ -148,7 +148,7 @@ const initialState = {
         {
             id: 15,
             name: 'F',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownone/f.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownone/f.mp3')),
             isPlaying: false,
             string: 'string-4',
             string_animated: '',
@@ -157,7 +157,7 @@ const initialState = {
         {
             id: 16,
             name: 'C',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownone/c.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownone/c.mp3')),
             isPlaying: false,
             string: 'string-3',
             string_animated: '',
@@ -166,7 +166,7 @@ const initialState = {
         {
             id: 17,
             name: 'G',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownone/g.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownone/g.mp3')),
             isPlaying: false,
             string: 'string-2',
             string_animated: '',
@@ -175,7 +175,7 @@ const initialState = {
         {
             id: 18,
             name: 'D',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedownone/d.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedownone/d.mp3')),
             isPlaying: false,
             string: 'string-1',
             string_animated: '',
@@ -185,7 +185,7 @@ const initialState = {
     down_twos: [{
             id: 19,
             name: 'CC',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedowntwo/cc.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedowntwo/cc.mp3')),
             isPlaying: false,
             string: 'string-6',
             string_animated: '',
@@ -194,7 +194,7 @@ const initialState = {
         {
             id: 20,
             name: 'G',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedowntwo/g.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedowntwo/g.mp3')),
             isPlaying: false,
             string: 'string-5',
             string_animated: '',
@@ -203,7 +203,7 @@ const initialState = {
         {
             id: 21,
             name: 'Eb',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedowntwo/eb.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedowntwo/eb.mp3')),
             isPlaying: false,
             string: 'string-4',
             string_animated: '',
@@ -212,7 +212,7 @@ const initialState = {
         {
             id: 22,
             name: 'Bb',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedowntwo/bb.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedowntwo/bb.mp3')),
             isPlaying: false,
             string: 'string-3',
             string_animated: '',
@@ -221,7 +221,7 @@ const initialState = {
         {
             id: 23,
             name: 'F',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedowntwo/f.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedowntwo/f.mp3')),
             isPlaying: false,
             string: 'string-2',
             string_animated: '',
@@ -230,7 +230,7 @@ const initialState = {
         {
             id: 24,
             name: 'C',
-            sound: new Audio('https://csabatimar.com/assets/guitar-tuner/sounds/tunedowntwo/c.mp3'),
+            sound: new Audio(require('../assets/sounds/tunedowntwo/c.mp3')),
             isPlaying: false,
             string: 'string-1',
             string_animated: '',
