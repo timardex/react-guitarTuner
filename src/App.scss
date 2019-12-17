@@ -231,9 +231,6 @@
                 }
             }
 
-            
-            
-
             &:focus,
             &:focus:after,
             &:hover,
@@ -282,8 +279,6 @@
 .shake-trigger:hover .shake-horizontal {
     animation-play-state: running;
 }
-
-
 
 .shake-horizontal:hover,
 .shake-trigger:hover .shake-horizontal,
@@ -524,7 +519,6 @@
 		transform: translate(2px, 0) rotate(0);
 	}
 
-	0%,
 	100% {
 		transform: translate(0, 0) rotate(0);
 	}

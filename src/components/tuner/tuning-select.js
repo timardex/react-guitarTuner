@@ -7,7 +7,8 @@ const TuningSelect = props => {
             <div className="string-sound-select width">
                 <div>
                     <div className="form-group">
-                        <select  className="form-control" onChange={(e) => props.tuningSelect(e.target.value)} value={props.selected}>
+                        <label className="sr-only" htmlFor="select-tune"></label>
+                        <select className="form-control" onChange={(e) => props.tuningSelect(e.target.value)} value={props.selected} id="select-tune">
                             {props.tunings.map((value, index) => {
                                 return <option key={index} value={value.name}>{value.name}</option>
                             })}
