@@ -1,5 +1,6 @@
-import initialState from './initialState';
 import {createStore} from 'redux';
+import initialState from './initialState';
+import {playSound, pauseSound, animationEnd} from './helpers';
 
 const reducer = (state = initialState, action) => {
     switch(action.type) {
@@ -19,63 +20,28 @@ const reducer = (state = initialState, action) => {
                     bounceIn: ''
                 }
         case 'PLAY':
-            const playSound = (item) => {
-                let _item = item.map(value => value.id === action.element.id ? 
-                    {
-                        ...value, 
-                        isPlaying: action.element.isPlaying = true,
-                        clicked: action.element.clicked = 'active', 
-                        string_animated: action.element.string_animated = 'shake-horizontal shake-constant',
-                    } : value    
-                )
-
-                return _item
-            }
             return{
                 ...state,
-                standards: playSound(state.standards),
-                down_halfs: playSound(state.down_halfs),
-                down_ones: playSound(state.down_ones),
-                down_twos: playSound(state.down_twos)
+                standards: playSound(state.standards, action.element),
+                down_halfs: playSound(state.down_halfs, action.element),
+                down_ones: playSound(state.down_ones, action.element),
+                down_twos: playSound(state.down_twos, action.element)
             }
         case 'PAUSE':
-                const pauseSound = (item) => {
-                    let _item = item.map(value => value.id === action.element.id ? 
-                        {
-                            ...value, 
-                            isPlaying: action.element.isPlaying = false,
-                            clicked: action.element.clicked = '', 
-                            string_animated: action.element.string_animated = '',
-                        } : value    
-                    )
-    
-                    return _item
-                }
                 return{
                     ...state,
-                    standards: pauseSound(state.standards),
-                    down_halfs: pauseSound(state.down_halfs),
-                    down_ones: pauseSound(state.down_ones),
-                    down_twos: pauseSound(state.down_twos)
+                    standards: pauseSound(state.standards, action.element),
+                    down_halfs: pauseSound(state.down_halfs, action.element),
+                    down_ones: pauseSound(state.down_ones, action.element),
+                    down_twos: pauseSound(state.down_twos, action.element)
                 }
         case 'ANIMATION_END':
-            const animationEnd = (item) => {
-                let _item = item.map(value => value.id === action.element.id ? 
-                    {
-                        ...value, 
-                        clicked: action.element.clicked = '', 
-                        string_animated: action.element.string_animated = ''
-                    } : value    
-                )
-
-                return _item
-            }
             return{
                 ...state,
-                standards: animationEnd(state.standards),
-                down_halfs: animationEnd(state.down_halfs),
-                down_ones: animationEnd(state.down_ones),
-                down_twos: animationEnd(state.down_twos)
+                standards: animationEnd(state.standards, action.element),
+                down_halfs: animationEnd(state.down_halfs, action.element),
+                down_ones: animationEnd(state.down_ones, action.element),
+                down_twos: animationEnd(state.down_twos, action.element)
             }
         default:
             return state
