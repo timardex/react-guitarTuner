@@ -1,4 +1,4 @@
-This is a Suntracker app made with React and Redux.
+This is a Guitar tuner app made with React and Redux.
 
 In the project directory, please run:
 
