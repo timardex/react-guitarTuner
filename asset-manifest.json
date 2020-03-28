@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/react-guitarTuner/static/css/main.36ba38f0.chunk.css",
+    "main.js": "/react-guitarTuner/static/js/main.10e68683.chunk.js",
+    "main.js.map": "/react-guitarTuner/static/js/main.10e68683.chunk.js.map",
+    "runtime-main.js": "/react-guitarTuner/static/js/runtime-main.77095249.js",
+    "runtime-main.js.map": "/react-guitarTuner/static/js/runtime-main.77095249.js.map",
+    "static/css/2.de424728.chunk.css": "/react-guitarTuner/static/css/2.de424728.chunk.css",
+    "static/js/2.3de0f348.chunk.js": "/react-guitarTuner/static/js/2.3de0f348.chunk.js",
+    "static/js/2.3de0f348.chunk.js.map": "/react-guitarTuner/static/js/2.3de0f348.chunk.js.map",
+    "index.html": "/react-guitarTuner/index.html",
+    "precache-manifest.3b7de53e70b4379de17bc0660b089f3f.js": "/react-guitarTuner/precache-manifest.3b7de53e70b4379de17bc0660b089f3f.js",
+    "service-worker.js": "/react-guitarTuner/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/react-guitarTuner/static/css/2.de424728.chunk.css.map",
+    "static/css/main.36ba38f0.chunk.css.map": "/react-guitarTuner/static/css/main.36ba38f0.chunk.css.map",
+    "static/js/2.3de0f348.chunk.js.LICENSE.txt": "/react-guitarTuner/static/js/2.3de0f348.chunk.js.LICENSE.txt",
+    "static/media/a.mp3": "/react-guitarTuner/static/media/a.94901878.mp3",
+    "static/media/ab.mp3": "/react-guitarTuner/static/media/ab.ad370329.mp3",
+    "static/media/bb.mp3": "/react-guitarTuner/static/media/bb.558aa9d1.mp3",
+    "static/media/c.mp3": "/react-guitarTuner/static/media/c.c0a72931.mp3",
+    "static/media/cc.mp3": "/react-guitarTuner/static/media/cc.87b4915c.mp3",
+    "static/media/d.mp3": "/react-guitarTuner/static/media/d.3478349b.mp3",
+    "static/media/db.mp3": "/react-guitarTuner/static/media/db.8431cfcd.mp3",
+    "static/media/dd.mp3": "/react-guitarTuner/static/media/dd.3c7473ef.mp3",
+    "static/media/e.mp3": "/react-guitarTuner/static/media/e.9d70bbdf.mp3",
+    "static/media/eb.mp3": "/react-guitarTuner/static/media/eb.beb7ff1b.mp3",
+    "static/media/ee.mp3": "/react-guitarTuner/static/media/ee.019f6d72.mp3",
+    "static/media/eeb.mp3": "/react-guitarTuner/static/media/eeb.6642fdf3.mp3",
+    "static/media/f.mp3": "/react-guitarTuner/static/media/f.44a962a1.mp3",
+    "static/media/App.scss": "/react-guitarTuner/static/media/fender-strat-neck.22df8431.png",
+    "static/media/g.mp3": "/react-guitarTuner/static/media/g.fd86eea5.mp3",
+    "static/media/gb.mp3": "/react-guitarTuner/static/media/gb.af10e0f0.mp3",
+    "static/media/h.mp3": "/react-guitarTuner/static/media/h.1dd41ee3.mp3",
+    "static/media/hb.mp3": "/react-guitarTuner/static/media/hb.9203618f.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77095249.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.3de0f348.chunk.js",
+    "static/css/main.36ba38f0.chunk.css",
+    "static/js/main.10e68683.chunk.js"
+  ]
+}
